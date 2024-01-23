@@ -1,2 +1,3 @@
 #!/bin/bash
-current_dir=$(pwd) && cd /path/to/new/directory && cd "$current_dir"
+OLDPWD=$PWD
+cd "$OLDPWD"
