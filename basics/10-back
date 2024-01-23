@@ -4,10 +4,10 @@
 current_dir=$(pwd)
 
 # Change to a new directory
-cd /tmp/my_second_directory
+cd /path/to/new/directory
 
 # Perform some operation in the new directory
-echo "Working in /tmp/my_second_directory"
+echo "Working in /path/to/new/directory"
 
 # Change back to the previous directory
 cd "$current_dir"
